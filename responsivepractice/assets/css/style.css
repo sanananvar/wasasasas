@@ -1,0 +1,200 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+
+    border-bottom: 1px solid grey;
+}
+
+
+.nav-logo{
+    height: 60px;
+    width: 60px;
+}
+
+.nav-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-list ul{
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav-list ul li{
+    list-style: none;
+}
+
+
+.nav-menu{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-menu i{
+    font-size: 40px;
+}
+
+
+
+
+.hero{
+    position: relative;
+    height: 776px;
+    width: 100%;
+}
+
+.hero img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+.hero-txt{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    height: 600px;
+    width: 100%;
+}
+
+.design-elem{
+    height: 500px;
+    width: 400px;
+}
+
+.design-elem img{
+    height: 80%;
+    width: 100%;
+}
+
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left h2{
+    font-size: 40px;
+}
+
+.right{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right p{
+    font-size: 25px;
+}
+
+
+.about{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(146, 90, 199);
+    height: 600px;
+    width: 100%;
+}
+
+.about h1{
+    margin-top: 50px;
+}
+
+.about-txt{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 70%;
+}
+.about-elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 50%;
+    height:200px ;
+}
+
+
+.furniture{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 200px;
+    height: 600px;
+    display: flex;
+}
+
+
+.furniture-elem{
+    height: 400px;
+    width: 400px;
+}
+
+
+.furniture-elem img{
+    height: 70%;
+    width: 100%;
+}
+
+.f-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.f-right h2{
+    font-size: 40px;
+}
+
+.f-right{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-left p{
+    font-size: 25px;
+}
